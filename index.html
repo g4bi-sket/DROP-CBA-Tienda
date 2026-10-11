@@ -1,150 +1,196 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DROP CBA | Indumentaria & Gorras</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-  <header>
-    <h1>DROP CBA</h1>
-    <p>INDUMENTARIA | ARGENTINA</p>
-  </header>
-
-  <div class="banner">
-    📦 Envíos a todo el país | 💳 Todos los medios de pago | 📩 Pedidos directos por Facebook
-  </div>
-
-  <div class="container">
-    
-    <h2 class="section-title">🔥 Línea Exclusiva Layners ($30.000)</h2>
-    <div class="grid" id="productos-1">
-      <div class="card" data-id="1" data-name="Chicago / LA Shield" data-price="30000">
-        <div>
-          <h3>Chicago / LA Shield</h3>
-          <p>Bordado 3D en alto relieve. Colores Rojo/Negro o Negro/Rojo.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DROP CBA | Premium Streetwear</title>
+    <meta
+      name="description"
+      content="DROP CBA - Indumentaria premium, gorras y streetwear para estilo urbano."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand-wrap">
+          <span class="brand-mark">D</span>
+          <div>
+            <p class="brand-name">DROP CBA</p>
+            <span class="brand-sub">STREETWEAR</span>
+          </div>
         </div>
+
+        <nav class="nav-links">
+          <a href="#catalogo">Catálogo</a>
+          <a href="#beneficios">Beneficios</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+
+        <button id="cartButton" class="cart-button" aria-label="Abrir carrito">
+          <span>🛒</span>
+          <span id="cartCount">0</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Indumentaria premium</p>
+            <h1>Gorras y prendas con identidad urbana.</h1>
+            <p class="hero-text">
+              Diseños exclusivos para quienes buscan estilo, comodidad y un look que
+              se vea distinto.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#catalogo" class="primary-btn">Ver catálogo</a>
+              <a href="https://www.facebook.com/drop.cba" class="secondary-btn" target="_blank" rel="noreferrer">Visitar Facebook</a>
+            </div>
+
+            <div class="stats">
+              <div>
+                <strong>1500+</strong>
+                <span>pedidos</span>
+              </div>
+              <div>
+                <strong>48h</strong>
+                <span>envío</span>
+              </div>
+              <div>
+                <strong>4.9/5</strong>
+                <span>reseñas</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="product-feature-card feature-top">
+              <p>NEW DROP</p>
+              <h3>Layners premium</h3>
+            </div>
+
+            <img
+              src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80"
+              alt="Modelo con estilo urbano"
+            />
+
+            <div class="product-feature-card feature-bottom">
+              <p>Desde</p>
+              <h3>$17.000</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog section" id="catalogo">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Catálogo</p>
+              <h2>Lo más vendido</h2>
+            </div>
+            <div class="filter-group" aria-label="Filtrar productos">
+              <button class="filter-btn active" data-category="all">Todo</button>
+              <button class="filter-btn" data-category="layners">Layners</button>
+              <button class="filter-btn" data-category="gorras">Gorras</button>
+              <button class="filter-btn" data-category="urbano">Urbano</button>
+            </div>
+          </div>
+
+          <div id="productGrid" class="product-grid"></div>
+        </div>
+      </section>
+
+      <section class="benefits section" id="beneficios">
+        <div class="container">
+          <div class="section-heading center">
+            <div>
+              <p class="eyebrow">¿Por qué elegirnos?</p>
+              <h2>Calidad, estilo y atención.</h2>
+            </div>
+          </div>
+
+          <div class="benefits-grid">
+            <article class="benefit-card">
+              <div class="icon">⚡</div>
+              <h3>Envios rápidos</h3>
+              <p>Despachos en todo el país con seguimiento claro.</p>
+            </article>
+
+            <article class="benefit-card">
+              <div class="icon">🧥</div>
+              <h3>Material premium</h3>
+              <p>Prendas con acabados elegantes y durabilidad.</p>
+            </article>
+
+            <article class="benefit-card">
+              <div class="icon">🛍️</div>
+              <h3>Compra fácil</h3>
+              <p>Agregá productos al carrito y pagá por Facebook/WhatsApp.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta section" id="contacto">
+        <div class="container cta-box">
+          <div>
+            <p class="eyebrow">Contacto</p>
+            <h2>Hacé tu pedido directo</h2>
+          </div>
+
+          <a
+            href="https://www.instagram.com/dropcba.oficial/"
+            class="primary-btn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Seguinos en Instagram
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
         <div>
-          <div class="price">$30.000</div>
-          <button class="btn-add">Agregar al carrito</button>
+          <p>© DROP CBA - Indumentaria & Gorras</p>
+          <p>Todos los derechos reservados.</p>
+        </div>
+        <div class="social-links">
+          <a href="https://www.instagram.com/dropcba.oficial/" target="_blank" rel="noreferrer">@dropcba.oficial</a>
+          <a href="https://www.facebook.com/drop.cba" target="_blank" rel="noreferrer">Facebook</a>
         </div>
       </div>
+    </footer>
 
-      <div class="card" data-id="2" data-name="NYC Basketball 3D" data-price="30000">
-        <div>
-          <h3>NYC Basketball 3D</h3>
-          <p>Acabado textil premium. Colores Marrón Melange / Naranja Terracota.</p>
-        </div>
-        <div>
-          <div class="price">$30.000</div>
-          <button class="btn-add">Agregar al carrito</button>
-        </div>
-      </div>
-    </div>
-
-    <h2 class="section-title">🧢 Marcas Selección & Urbano ($20.000)</h2>
-    <div class="grid" id="productos-2">
-      <div class="card" data-id="3" data-name="Nike Swoosh Clásica" data-price="20000">
-        <div>
-          <h3>Nike Swoosh Clásica</h3>
-          <p>Visera curva. Disponible en Negro, Blanco, Gris, Beige, Verde, Vino y Azul.</p>
-        </div>
-        <div>
-          <div class="price">$20.000</div>
-          <button class="btn-add">Agregar al carrito</button>
-        </div>
+    <aside id="cartPanel" class="cart-panel" aria-label="Carrito de compras">
+      <div class="cart-header">
+        <h3>Tu carrito</h3>
+        <button id="closeCart" class="close-btn" aria-label="Cerrar carrito">✕</button>
       </div>
 
-      <div class="card" data-id="4" data-name="Adidas / Puma Visera Plana" data-price="20000">
-        <div>
-          <h3>Adidas / Puma Visera Plana</h3>
-          <p>Modelos clásicos en tonos Negro, Rojo y Beige.</p>
+      <div id="cartItems" class="cart-items"></div>
+
+      <div class="cart-footer">
+        <div class="total-row">
+          <span>Total</span>
+          <strong id="cartTotal">$0</strong>
         </div>
-        <div>
-          <div class="price">$20.000</div>
-          <button class="btn-add">Agregar al carrito</button>
-        </div>
+
+        <button id="checkoutBtn" class="checkout-btn">Finalizar compra</button>
       </div>
-    </div>
+    </aside>
 
-  </div>
-
-  <aside class="cart-panel" id="cartPanel">
-    <div class="cart-header">
-      <h2>Carrito</h2>
-      <button id="closeCart" class="close-btn">✕</button>
-    </div>
-    <div id="cartItems" class="cart-items"></div>
-    <div class="cart-footer">
-      <div class="total-row">
-        <span>Total</span>
-        <strong id="cartTotal">$0</strong>
-      </div>
-      <button class="checkout-btn">Finalizar compra</button>
-    </div>
-  </aside>
-
-  <button id="cartButton" class="cart-button">
-    🛒 <span id="cartCount">0</span>
-  </button>
-
-  <footer>
-    <p>© DROP CBA - Todos los derechos reservados.</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
