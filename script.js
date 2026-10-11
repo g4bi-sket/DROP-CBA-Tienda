@@ -58,6 +58,46 @@ const products = [
       "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80",
     description: "Diseño casual y funcional para un outfit moderno y cómodo.",
     badge: "Fresh"
+  },
+  {
+    id: 7,
+    name: "Buzo DROP CBA",
+    category: "urbano",
+    price: 25000,
+    image:
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80",
+    description: "Buzo oversize con diseño premium para looks diarios y callejeros.",
+    badge: "New"
+  },
+  {
+    id: 8,
+    name: "Los Angeles Legacy",
+    category: "gorras",
+    price: 20000,
+    image:
+      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80",
+    description: "Gorra premium con bordado vintage estilo L.A. y color cálido urbano.",
+    badge: "Premium"
+  },
+  {
+    id: 9,
+    name: "NYC Heritage",
+    category: "gorras",
+    price: 20000,
+    image:
+      "https://images.unsplash.com/photo-1521369909026-2afc0b7c5b8f?auto=format&fit=crop&w=900&q=80",
+    description: "Modelo de perfil clásico con acabado premium y visión de la ciudad.",
+    badge: "Heritage"
+  },
+  {
+    id: 10,
+    name: "Chicago Core",
+    category: "gorras",
+    price: 20000,
+    image:
+      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80",
+    description: "Gorra con bordado sobrio y diseño urbano para uso diario.",
+    badge: "Classic"
   }
 ];
 
