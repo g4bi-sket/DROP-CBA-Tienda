@@ -5,7 +5,7 @@ const products = [
     category: "layners",
     price: 30000,
     image:
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80",
+      "https://drive.google.com/uc?export=view&id=1RYgbXR_06WxrGIZLMmNFAueOYAG5MrFd",
     description: "Bordado 3D premium con acabado urbano y textura de alto impacto.",
     badge: "New Drop"
   },
@@ -35,11 +35,19 @@ const products = [
     category: "gorras",
     price: 20000,
     image:
-      "blob:https://web.whatsapp.com/c8d52a46-9382-4ab1-b384-d77fa52bcc9f",
+      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80",
     description: "Modelo urbano con corte moderno y excelente comodidad.",
     badge: "Classic"
   },
   {
+    id: 5,
+    name: "Overshirt Street",
+    category: "urbano",
+    price: 17000,
+    image:
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80",
+    description: "Prenda ligera ideal para looks diarios con personalidad.",
+    badge: "Best Seller"
   },
   {
     id: 6,
@@ -52,7 +60,14 @@ const products = [
     badge: "Fresh"
   },
   {
-  
+    id: 7,
+    name: "Buzo DROP CBA",
+    category: "urbano",
+    price: 25000,
+    image:
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80",
+    description: "Buzo oversize con diseño premium para looks diarios y callejeros.",
+    badge: "New"
   },
   {
     id: 8,
@@ -60,7 +75,7 @@ const products = [
     category: "gorras",
     price: 20000,
     image:
-      "blob:https://web.whatsapp.com/af6d3627-f6fe-4e61-a906-2a9c5b5f6f30",
+      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80",
     description: "Gorra premium con bordado vintage estilo L.A. y color cálido urbano.",
     badge: "Premium"
   },
@@ -70,7 +85,7 @@ const products = [
     category: "gorras",
     price: 20000,
     image:
-      blob:https://web.whatsapp.com/9d5ae6b1-b30d-43e6-838e-02b4416b6cb7
+      "https://images.unsplash.com/photo-1521369909026-2afc0b7c5b8f?auto=format&fit=crop&w=900&q=80",
     description: "Modelo de perfil clásico con acabado premium y visión de la ciudad.",
     badge: "Heritage"
   },
@@ -80,7 +95,7 @@ const products = [
     category: "gorras",
     price: 20000,
     image:
-     blob:https://web.whatsapp.com/af6d3627-f6fe-4e61-a906-2a9c5b5f6f30 ",
+      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80",
     description: "Gorra con bordado sobrio y diseño urbano para uso diario.",
     badge: "Classic"
   }
