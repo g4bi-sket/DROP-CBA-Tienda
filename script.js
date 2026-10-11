@@ -63,6 +63,7 @@ const products = [
 
 const cartKey = "dropcba-cart";
 const cart = JSON.parse(localStorage.getItem(cartKey)) || [];
+const WHATSAPP_NUMBER = "5493518631873";
 
 const productGrid = document.getElementById("productGrid");
 const cartItems = document.getElementById("cartItems");
@@ -231,7 +232,7 @@ function setupCartInteractions() {
         .join("\n")}\n\nTotal: $${total.toLocaleString("es-AR")}`
     );
 
-    window.open(`https://wa.me/5491123456789?text=${text}`, "_blank");
+    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${text}`, "_blank");
   });
 }
 
