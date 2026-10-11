@@ -1,101 +1,73 @@
 const products = [
   {
     id: 1,
-    name: "Chicago / LA Shield",
-    category: "layners",
-    price: 30000,
-    image:
-      "https://i.ibb.co/35vfNFmT/Copia-de-IMG-5313.jpg",
-    description: "Bordado 3D premium con acabado urbano y textura de alto impacto.",
-    badge: "New Drop"
-  },
-  {
-    id: 2,
-    name: "NYC Basketball 3D",
-    category: "layners",
-    price: 30000,
-    image:
-      "https://i.ibb.co/tMyKms0F/NYC-LA.jpg",
-    description: "Acabado textil premium con diseño exclusivo para día y noche.",
-    badge: "Limited"
-  },
-  {
-    id: 3,
     name: "Jordans Curveadas",
     category: "gorras",
     price: 20000,
-    image:
-      "https://i.ibb.co/SXfQy64B/Jordan.jpg",
+    image: "https://i.ibb.co/SXfQy64B/Jordan.jpg",
     description: "Visera curva en varios tonos con estilo clásico y sobrio.",
     badge: "Top"
   },
   {
-    id: 4,
+    id: 2,
     name: "Adidas Plana",
     category: "gorras",
     price: 20000,
-    image:
-      "https://i.ibb.co/pjsJsGF9/Adidas-Planas.jpg",
+    image: "https://i.ibb.co/pjsJsGF9/Adidas-Planas.jpg",
     description: "Modelo urbano con corte moderno y excelente comodidad.",
     badge: "Classic"
   },
   {
-    id: 5,
+    id: 3,
     name: "Gorras Modernas",
     category: "urbano",
     price: 17000,
-    image:
-      "https://i.ibb.co/bM5wGLpn/Gorras-modernas.jpg",
+    image: "https://i.ibb.co/bM5wGLpn/Gorras-modernas.jpg",
     description: "Prenda ligera ideal para looks diarios con personalidad.",
     badge: "Best Seller"
   },
   {
-    id: 6,
+    id: 4,
     name: "Puma Visera Plana",
     category: "urbano",
     price: 17000,
-    image:
-      "https://i.ibb.co/1tVCtwtP/Pumas-planas.jpg",
+    image: "https://i.ibb.co/1tVCtwtP/Pumas-planas.jpg",
     description: "Diseño casual y funcional para un outfit moderno y cómodo.",
     badge: "Fresh"
   },
   {
-    id: 7,
+    id: 5,
     name: "Buzo DROP CBA",
     category: "urbano",
     price: 25000,
-    image:
-      "https://i.ibb.co/35vfNFmT/Copia-de-IMG-5313.jpg",
+    image: "https://i.ibb.co/35vfNFmT/Copia-de-IMG-5313.jpg",
     description: "Buzo oversize con diseño premium para looks diarios y callejeros.",
     badge: "New"
   },
   {
-    id: 8,
+    id: 6,
     name: "Puma Premium",
     category: "gorras",
     price: 20000,
-    image:
-      "https://i.ibb.co/1tVCtwtP/Pumas-planas.jpg",
+    image: "https://i.ibb.co/1tVCtwtP/Pumas-planas.jpg",
     description: "Gorra premium con bordado vintage estilo urbano y color cálido.",
     badge: "Premium"
   },
   {
-    id: 9,
+    id: 7,
     name: "NYC Heritage",
     category: "gorras",
     price: 20000,
-    image:
-      "https://i.ibb.co/tMyKms0F/NYC-LA.jpg",
+    image: "https://i.ibb.co/tMyKms0F/NYC-LA.jpg",
     description: "Modelo de perfil clásico con acabado premium y visión de la ciudad.",
     badge: "Heritage"
   },
   {
-    id: 10,
+    id: 8,
     name: "Chicago Core",
     category: "gorras",
     price: 20000,
-    image:
-      "https://i.ibb.co/35vfNFmT/Copia-de-IMG-5313.jpg",
+    image: "https://i.ibb.co/35vfNFmT/Copia-de-IMG-5313.jpg",
     description: "Gorra con bordado sobrio y diseño urbano para uso diario.",
     badge: "Classic"
   }
