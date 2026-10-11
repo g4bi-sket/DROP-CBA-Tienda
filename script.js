@@ -5,7 +5,7 @@ const products = [
     category: "layners",
     price: 30000,
     image:
-      "https://ibb.co/35vfNFmT",
+      "https://i.ibb.co/35vfNFmT/Copia-de-IMG-5313.jpg",
     description: "Bordado 3D premium con acabado urbano y textura de alto impacto.",
     badge: "New Drop"
   },
@@ -15,47 +15,47 @@ const products = [
     category: "layners",
     price: 30000,
     image:
-      "https://ibb.co/svLRmwTz",
+      "https://i.ibb.co/tMyKms0F/NYC-LA.jpg",
     description: "Acabado textil premium con diseño exclusivo para día y noche.",
     badge: "Limited"
   },
   {
     id: 3,
-    name: "Nike Swoosh Clásica",
+    name: "Jordans Curveadas",
     category: "gorras",
     price: 20000,
     image:
-      "https://ibb.co/rGdb0QRH",
+      "https://i.ibb.co/SXfQy64B/Jordan.jpg",
     description: "Visera curva en varios tonos con estilo clásico y sobrio.",
     badge: "Top"
   },
   {
     id: 4,
-    name: "Adidas / Puma Visera Plana",
+    name: "Adidas Plana",
     category: "gorras",
     price: 20000,
     image:
-      "https://ibb.co/tpN8NkrW",
+      "https://i.ibb.co/pjsJsGF9/Adidas-Planas.jpg",
     description: "Modelo urbano con corte moderno y excelente comodidad.",
     badge: "Classic"
   },
   {
     id: 5,
-    name: "Overshirt Street",
+    name: "Gorras Modernas",
     category: "urbano",
     price: 17000,
     image:
-      "https://ibb.co/KpZtp3pf",
+      "https://i.ibb.co/bM5wGLpn/Gorras-modernas.jpg",
     description: "Prenda ligera ideal para looks diarios con personalidad.",
     badge: "Best Seller"
   },
   {
     id: 6,
-    name: "Canguro Essential",
+    name: "Puma Visera Plana",
     category: "urbano",
     price: 17000,
     image:
-      "https://ibb.co/KpZtp3pf",
+      "https://i.ibb.co/1tVCtwtP/Pumas-planas.jpg",
     description: "Diseño casual y funcional para un outfit moderno y cómodo.",
     badge: "Fresh"
   },
@@ -65,17 +65,17 @@ const products = [
     category: "urbano",
     price: 25000,
     image:
-      "https://ibb.co/35vfNFmT",
+      "https://i.ibb.co/35vfNFmT/Copia-de-IMG-5313.jpg",
     description: "Buzo oversize con diseño premium para looks diarios y callejeros.",
     badge: "New"
   },
   {
     id: 8,
-    name: "Puma Visera Plana",
+    name: "Puma Premium",
     category: "gorras",
     price: 20000,
     image:
-      "https://ibb.co/KpZtp3pf",
+      "https://i.ibb.co/1tVCtwtP/Pumas-planas.jpg",
     description: "Gorra premium con bordado vintage estilo urbano y color cálido.",
     badge: "Premium"
   },
@@ -85,7 +85,7 @@ const products = [
     category: "gorras",
     price: 20000,
     image:
-      "https://ibb.co/svLRmwTz",
+      "https://i.ibb.co/tMyKms0F/NYC-LA.jpg",
     description: "Modelo de perfil clásico con acabado premium y visión de la ciudad.",
     badge: "Heritage"
   },
@@ -95,7 +95,7 @@ const products = [
     category: "gorras",
     price: 20000,
     image:
-      "https://ibb.co/35vfNFmT",
+      "https://i.ibb.co/35vfNFmT/Copia-de-IMG-5313.jpg",
     description: "Gorra con bordado sobrio y diseño urbano para uso diario.",
     badge: "Classic"
   }
