@@ -5,7 +5,7 @@ const products = [
     category: "layners",
     price: 30000,
     image:
-      "https://drive.google.com/uc?export=view&id=1RYgbXR_06WxrGIZLMmNFAueOYAG5MrFd",
+      "https://ibb.co/35vfNFmT",
     description: "Bordado 3D premium con acabado urbano y textura de alto impacto.",
     badge: "New Drop"
   },
@@ -15,7 +15,7 @@ const products = [
     category: "layners",
     price: 30000,
     image:
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80",
+      "https://ibb.co/svLRmwTz",
     description: "Acabado textil premium con diseño exclusivo para día y noche.",
     badge: "Limited"
   },
@@ -25,7 +25,7 @@ const products = [
     category: "gorras",
     price: 20000,
     image:
-      "https://images.unsplash.com/photo-1521369909026-2afc0b7c5b8f?auto=format&fit=crop&w=900&q=80",
+      "https://ibb.co/rGdb0QRH",
     description: "Visera curva en varios tonos con estilo clásico y sobrio.",
     badge: "Top"
   },
@@ -35,7 +35,7 @@ const products = [
     category: "gorras",
     price: 20000,
     image:
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80",
+      "https://ibb.co/tpN8NkrW",
     description: "Modelo urbano con corte moderno y excelente comodidad.",
     badge: "Classic"
   },
@@ -45,7 +45,7 @@ const products = [
     category: "urbano",
     price: 17000,
     image:
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80",
+      "https://ibb.co/KpZtp3pf",
     description: "Prenda ligera ideal para looks diarios con personalidad.",
     badge: "Best Seller"
   },
@@ -55,7 +55,7 @@ const products = [
     category: "urbano",
     price: 17000,
     image:
-      "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80",
+      "https://ibb.co/KpZtp3pf",
     description: "Diseño casual y funcional para un outfit moderno y cómodo.",
     badge: "Fresh"
   },
@@ -65,18 +65,18 @@ const products = [
     category: "urbano",
     price: 25000,
     image:
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80",
+      "https://ibb.co/35vfNFmT",
     description: "Buzo oversize con diseño premium para looks diarios y callejeros.",
     badge: "New"
   },
   {
     id: 8,
-    name: "Los Angeles Legacy",
+    name: "Puma Visera Plana",
     category: "gorras",
     price: 20000,
     image:
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80",
-    description: "Gorra premium con bordado vintage estilo L.A. y color cálido urbano.",
+      "https://ibb.co/KpZtp3pf",
+    description: "Gorra premium con bordado vintage estilo urbano y color cálido.",
     badge: "Premium"
   },
   {
@@ -85,7 +85,7 @@ const products = [
     category: "gorras",
     price: 20000,
     image:
-      "https://images.unsplash.com/photo-1521369909026-2afc0b7c5b8f?auto=format&fit=crop&w=900&q=80",
+      "https://ibb.co/svLRmwTz",
     description: "Modelo de perfil clásico con acabado premium y visión de la ciudad.",
     badge: "Heritage"
   },
@@ -95,7 +95,7 @@ const products = [
     category: "gorras",
     price: 20000,
     image:
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80",
+      "https://ibb.co/35vfNFmT",
     description: "Gorra con bordado sobrio y diseño urbano para uso diario.",
     badge: "Classic"
   }
