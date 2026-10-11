@@ -37,15 +37,6 @@ const products = [
   },
   {
     id: 5,
-    name: "Buzo DROP CBA",
-    category: "urbano",
-    price: 25000,
-    image: "https://i.ibb.co/35vfNFmT/Copia-de-IMG-5313.jpg",
-    description: "Buzo oversize con diseño premium para looks diarios y callejeros.",
-    badge: "New"
-  },
-  {
-    id: 6,
     name: "Puma Premium",
     category: "gorras",
     price: 30000,
@@ -54,7 +45,7 @@ const products = [
     badge: "Premium"
   },
   {
-    id: 7,
+    id: 6,
     name: "NYC Heritage",
     category: "gorras",
     price: 30000,
@@ -63,7 +54,7 @@ const products = [
     badge: "Heritage"
   },
   {
-    id: 8,
+    id: 7,
     name: "Chicago Core",
     category: "gorras",
     price: 30000,
