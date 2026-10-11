@@ -48,7 +48,7 @@ const products = [
     id: 6,
     name: "Puma Premium",
     category: "gorras",
-    price: 20000,
+    price: 30000,
     image: "https://i.ibb.co/1tVCtwtP/Pumas-planas.jpg",
     description: "Gorra premium con bordado vintage estilo urbano y color cálido.",
     badge: "Premium"
@@ -57,7 +57,7 @@ const products = [
     id: 7,
     name: "NYC Heritage",
     category: "gorras",
-    price: 20000,
+    price: 30000,
     image: "https://i.ibb.co/tMyKms0F/NYC-LA.jpg",
     description: "Modelo de perfil clásico con acabado premium y visión de la ciudad.",
     badge: "Heritage"
@@ -66,7 +66,7 @@ const products = [
     id: 8,
     name: "Chicago Core",
     category: "gorras",
-    price: 20000,
+    price: 30000,
     image: "https://i.ibb.co/35vfNFmT/Copia-de-IMG-5313.jpg",
     description: "Gorra con bordado sobrio y diseño urbano para uso diario.",
     badge: "Classic"
