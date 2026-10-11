@@ -28,24 +28,15 @@ const products = [
   },
   {
     id: 4,
-    name: "Puma Visera Plana",
-    category: "urbano",
-    price: 17000,
-    image: "https://i.ibb.co/1tVCtwtP/Pumas-planas.jpg",
-    description: "Diseño casual y funcional para un outfit moderno y cómodo.",
-    badge: "Fresh"
-  },
-  {
-    id: 5,
     name: "Puma Premium",
     category: "gorras",
-    price: 30000,
+    price: 25000,
     image: "https://i.ibb.co/1tVCtwtP/Pumas-planas.jpg",
     description: "Gorra premium con bordado vintage estilo urbano y color cálido.",
     badge: "Premium"
   },
   {
-    id: 6,
+    id: 5,
     name: "NYC Heritage",
     category: "gorras",
     price: 30000,
@@ -54,7 +45,7 @@ const products = [
     badge: "Heritage"
   },
   {
-    id: 7,
+    id: 6,
     name: "Chicago Core",
     category: "gorras",
     price: 30000,
